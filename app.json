@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Golf GPS & Stableford",
+    "slug": "golf-gps-stableford",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Your location is needed to calculate the distance to the centre of the green."
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"],
+      "package": "be.rkgc.golfgps"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow location access to calculate the distance to the centre of the green."
+        }
+      ]
+    ]
+  }
+}

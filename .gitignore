@@ -1,0 +1,9 @@
+.env
+push-secrets.local.md
+node_modules/
+dist/
+netlify-upload-*/
+.env.*
+!.env.example
+.netlify/
+tmp/

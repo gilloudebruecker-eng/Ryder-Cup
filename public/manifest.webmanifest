@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "Golf GPS & Ryder Cup Live",
+  "short_name": "Golf Live",
+  "description": "Golf GPS, multiplayer scoring and Ryder Cup Live with lock-screen updates.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071710",
+  "theme_color": "#071710",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/golf-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
